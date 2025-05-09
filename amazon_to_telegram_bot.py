@@ -4,10 +4,10 @@ import asyncio
 from telegram import Bot
 
 # === CONFIGURATION ===
-AMAZON_URL = 'https://www.amazon.in/boAt-Nirvana-Crystl-Quantum-Black/dp/B0DGTVRH97/ref=sr_1_1?nsdOptOutParam=true&s=electronics&sr=1-1'  # Normal Amazon product URL
-AFFILIATE_LINK = 'https://amzn.to/438ok8x'  # Your affiliate link here
-TELEGRAM_TOKEN = '8155146341:AAEiwJ6IjiTOqMXjIhDm-D11y7WYff6GiIA'  # From @BotFather
-TELEGRAM_CHAT_ID = '@LootersZone123'  # Channel name or group chat ID
+AMAZON_URL = 'https://www.amazon.in/boAt-Nirvana-Crystl-Quantum-Black/dp/B0DGTVRH97/ref=sr_1_1?nsdOptOutParam=true&s=electronics&sr=1-1'  
+AFFILIATE_LINK = 'https://amzn.to/438ok8x' 
+TELEGRAM_TOKEN = '8155146341:AAEiwJ6IjiTOqMXjIhDm-D11y7WYff6GiIA'  
+TELEGRAM_CHAT_ID = '@LootersZone123' 
 
 # === SCRAPE AMAZON PRODUCT DATA ===
 headers = {
